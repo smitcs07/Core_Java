@@ -1,0 +1,91 @@
+ Java operators are special symbols that perform operations on variables or values. They can be classified into several categories based on their functionality. These operators play a crucial role in performing arithmetic, logical, relational, and bitwise operations etc.
+
+* Types of Operators in Java
+1 Arithmetic Operators
+2 Unary Operators
+3 Assignment Operator
+4 Relational Operators
+5 Logical Operators
+6 Ternary Operator
+7 Bitwise Operators
+8 Shift Operators
+9 instance of operator
+
+///////////////////////////////////////////////////////////////////////////////////////
+
+1. Arithmetic Operators
+Arithmetic Operators are used to perform simple arithmetic operations on primitive and non-primitive data types. 
+
+* : Multiplication
+/ : Division
+% : Modulo
++ : Addition
+– : Subtraction
+
+2. Unary Operators
+Unary Operators need only one operand. They are used to increment, decrement, or negate a value. 
+
+- : Negates the value.
++ : Indicates a positive value (automatically converts byte, char, or short to int).
+++ : Increments by 1.
+Post-Increment: Uses value first, then increments.
+Pre-Increment: Increments first, then uses value.
+-- : Decrements by 1.
+Post-Decrement: Uses value first, then decrements.
+Pre-Decrement: Decrements first, then uses value.
+! : Inverts a boolean value.
+
+3. Assignment Operator
+ ‘=’ Assignment operator is used to assign a value to any variable. It has right-to-left associativity, i.e. value given on the right-hand side of the operator is assigned to the variable on the left, and therefore right-hand side value must be declared before using it or should be a constant. 
+
++= : Add and assign.
+-= : Subtract and assign.
+*= : Multiply and assign.
+/= : Divide and assign.
+%= : Modulo and assign.
+
+4. Relational Operators
+Relational Operators are used to check for relations like equality, greater than, and less than. They return boolean results after the comparison and are extensively used in looping statements as well as conditional if-else statements.
+
+== : Equal to.
+!= : Not equal to.
+< : Less than.
+<= : Less than or equal to.
+> : Greater than.
+>= : Greater than or equal to.
+
+5. Logical Operators
+Logical Operators are used to perform “logical AND” and “logical OR” operations, similar to AND gate and OR gate in digital electronics. They have a short-circuiting effect, meaning the second condition is not evaluated if the first is false.
+
+&& : Logical AND: returns true when both conditions are true.
+|| : Logical OR: returns true if at least one condition is true.
+! : Logical NOT: returns true when a condition is false and vice-versa.
+
+6. Ternary operator
+The Ternary Operator is a shorthand version of the if-else statement. It has three operands and hence the name Ternary. The general format is ,
+
+condition ? if true : if false 
+
+7. Bitwise Operators
+Bitwise Operators are used to perform the manipulation of individual bits of a number and with any of the integer types. They are used when performing update and query operations of the Binary indexed trees. 
+
+& (Bitwise AND) – returns bit-by-bit AND of input values.
+| (Bitwise OR) – returns bit-by-bit OR of input values.
+^ (Bitwise XOR) – returns bit-by-bit XOR of input values.
+~ (Bitwise Complement) – inverts all bits (one’s complement).
+
+8. Shift Operators
+Shift Operators are used to shift the bits of a number left or right, thereby multiplying or dividing the number by two, respectively. They can be used when we have to multiply or divide a number by two. 
+
+The general format ,
+number shift_op number_of_places_to_shift; 
+
+<< (Left shift) – Shifts bits left, filling 0s (multiplies by a power of two).
+>> (Signed right shift) – Shifts bits right, filling 0s (divides by a power of two), with the leftmost bit depending on the sign.
+>>> (Unsigned right shift) – Shifts bits right, filling 0s, with the leftmost bit always 0.
+
+9. instanceof operator
+The instance of operator is used for type checking. It can be used to test if an object is an instance of a class, a subclass, or an interface. The general format ,  
+
+object instance of class/subclass/interface 
+
